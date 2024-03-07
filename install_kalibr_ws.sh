@@ -12,10 +12,9 @@ sudo apt-get install -y \
 
 mkdir -p ~/catkin_ws_kalibr/src
 cd ~/catkin_ws_kalibr
-export ROS1_DISTRO=noetic
-source /opt/ros/$ROS1_DISTRO/setup.bash
+source /opt/ros/noetic/setup.bash
 catkin init
-catkin config --extend /opt/ros/$ROS1_DISTRO
+catkin config --extend /opt/ros/noetic
 catkin config --merge-devel
 catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release
 
