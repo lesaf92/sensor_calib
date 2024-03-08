@@ -7,5 +7,6 @@
 ## Sensor data as ROS bags
 
 - a bag for IMU calibration (using allan_variance_ros)
+- a bag for CAM calibration (using kalibr)
 - a bag for IMU+CAM calibration (using kalibr)
 - a bag for MAG calibration (using custom pkg?)
